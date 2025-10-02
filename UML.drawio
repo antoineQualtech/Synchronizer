@@ -65,7 +65,7 @@
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MTBKCmyBLElkbQ5yRE9a-21" value="SyncFields" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-40" y="600" width="290" height="130" as="geometry" />
+          <mxGeometry x="-10" y="600" width="290" height="130" as="geometry" />
         </mxCell>
         <mxCell id="MTBKCmyBLElkbQ5yRE9a-22" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;ID : BIGINT IDENTITY(1,1) PRIMARY KEY&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="MTBKCmyBLElkbQ5yRE9a-21" vertex="1">
           <mxGeometry y="26" width="290" height="26" as="geometry" />
