@@ -65,7 +65,7 @@
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MTBKCmyBLElkbQ5yRE9a-21" value="SyncFields" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-10" y="600" width="290" height="208" as="geometry" />
+          <mxGeometry x="-10" y="620" width="290" height="208" as="geometry" />
         </mxCell>
         <mxCell id="MTBKCmyBLElkbQ5yRE9a-22" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;ID : BIGINT IDENTITY(1,1) PRIMARY KEY&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="MTBKCmyBLElkbQ5yRE9a-21" vertex="1">
           <mxGeometry y="26" width="290" height="26" as="geometry" />
@@ -73,7 +73,7 @@
         <mxCell id="Qzrrch7IK2g1BgYNQHYs-12" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;FieldCode : NVARCHAR(200)&amp;nbsp;&amp;nbsp; NOT NULL&amp;nbsp;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="MTBKCmyBLElkbQ5yRE9a-21" vertex="1">
           <mxGeometry y="52" width="290" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="MTBKCmyBLElkbQ5yRE9a-23" value="&lt;span style=&quot;font-size: 9px;&quot;&gt;SystemCode : NVARCHAR(50)&amp;nbsp;&amp;nbsp; NOT NULL&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 9px;&quot;&gt;UNIQUE FK&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="MTBKCmyBLElkbQ5yRE9a-21" vertex="1">
+        <mxCell id="MTBKCmyBLElkbQ5yRE9a-23" value="&lt;span style=&quot;font-size: 9px;&quot;&gt;ObjectCode : NVARCHAR(50)&amp;nbsp;&amp;nbsp; NOT NULL&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 9px;&quot;&gt;UNIQUE FK&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="MTBKCmyBLElkbQ5yRE9a-21" vertex="1">
           <mxGeometry y="78" width="290" height="26" as="geometry" />
         </mxCell>
         <mxCell id="hNZ9rFo7HgNfVF230UiR-2" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;ExternalFieldID :&amp;nbsp;BIGINT FK&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MTBKCmyBLElkbQ5yRE9a-21">
@@ -352,6 +352,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="280" y="110" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="hNZ9rFo7HgNfVF230UiR-73" value="si updated&lt;div&gt;si added&lt;/div&gt;&lt;div&gt;si deleted&lt;/div&gt;&lt;div&gt;old data et new data&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hNZ9rFo7HgNfVF230UiR-53">
+          <mxGeometry x="350" y="45" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hNZ9rFo7HgNfVF230UiR-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hNZ9rFo7HgNfVF230UiR-58" target="hNZ9rFo7HgNfVF230UiR-36">
           <mxGeometry relative="1" as="geometry">
