@@ -147,6 +147,18 @@
         <mxCell id="Qzrrch7IK2g1BgYNQHYs-7" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="Qzrrch7IK2g1BgYNQHYs-5">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Qzrrch7IK2g1BgYNQHYs-9" value="Relation" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MTBKCmyBLElkbQ5yRE9a-23" target="Qzrrch7IK2g1BgYNQHYs-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="680" as="sourcePoint" />
+            <mxPoint x="330" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qzrrch7IK2g1BgYNQHYs-10" value="0..n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="Qzrrch7IK2g1BgYNQHYs-9">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qzrrch7IK2g1BgYNQHYs-11" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="Qzrrch7IK2g1BgYNQHYs-9">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
