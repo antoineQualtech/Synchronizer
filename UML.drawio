@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="Page-1" id="Aj5_N3WaNxsP5dWTPXrr">
-    <mxGraphModel dx="2505" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2253" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -180,7 +180,23 @@
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hNZ9rFo7HgNfVF230UiR-13" value="Epicor" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-420" y="850" width="1090" height="280" as="geometry" />
+          <mxGeometry x="-480" y="840" width="1090" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="hNZ9rFo7HgNfVF230UiR-14" value="Object" style="html=1;whiteSpace=wrap;" vertex="1" parent="hNZ9rFo7HgNfVF230UiR-13">
+          <mxGeometry x="180" y="65" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hNZ9rFo7HgNfVF230UiR-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.024;entryY=0.338;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="hNZ9rFo7HgNfVF230UiR-13" source="hNZ9rFo7HgNfVF230UiR-15" target="hNZ9rFo7HgNfVF230UiR-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="100.11764705882365" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hNZ9rFo7HgNfVF230UiR-17" value="Modifie,Creation,Effacer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hNZ9rFo7HgNfVF230UiR-16">
+          <mxGeometry x="-0.2857" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hNZ9rFo7HgNfVF230UiR-15" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="hNZ9rFo7HgNfVF230UiR-13">
+          <mxGeometry y="70" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
