@@ -179,6 +179,9 @@
         <mxCell id="Qzrrch7IK2g1BgYNQHYs-11" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" parent="Qzrrch7IK2g1BgYNQHYs-9" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="hNZ9rFo7HgNfVF230UiR-13" value="Epicor" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="850" width="1090" height="280" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
