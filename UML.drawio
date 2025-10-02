@@ -130,6 +130,23 @@
         <mxCell id="Qzrrch7IK2g1BgYNQHYs-4" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;ObjectCompanyCode&amp;nbsp;&lt;font style=&quot;&quot;&gt;: NVARCHAR(20) NOT NULL&amp;nbsp;&lt;/font&gt;PRIMARY KEY UNIQUE&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Qzrrch7IK2g1BgYNQHYs-1">
           <mxGeometry y="78" width="320" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="Qzrrch7IK2g1BgYNQHYs-5" value="Relation" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=1.003;exitY=0.077;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.607;entryY=1.077;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Qzrrch7IK2g1BgYNQHYs-3" target="MTBKCmyBLElkbQ5yRE9a-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="522" as="sourcePoint" />
+            <mxPoint x="460" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="504" />
+              <mxPoint x="310" y="482" />
+              <mxPoint x="460" y="482" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qzrrch7IK2g1BgYNQHYs-6" value="1..n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="Qzrrch7IK2g1BgYNQHYs-5">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qzrrch7IK2g1BgYNQHYs-7" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="Qzrrch7IK2g1BgYNQHYs-5">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
