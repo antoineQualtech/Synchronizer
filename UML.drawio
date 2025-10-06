@@ -404,6 +404,9 @@
         <mxCell id="8bQzE6Kmlg_8_YY8ckR2-30" value="POST,PUT,DELETE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="570" y="200" width="130" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="8bQzE6Kmlg_8_YY8ckR2-31" value="{&lt;div&gt;&quot;startdate&quot; : &quot;2025-10-26&quot;&lt;br&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="220" width="160" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
