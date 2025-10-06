@@ -450,6 +450,9 @@
         <mxCell id="8bQzE6Kmlg_8_YY8ckR2-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.192;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8bQzE6Kmlg_8_YY8ckR2-51" target="Qzrrch7IK2g1BgYNQHYs-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="8bQzE6Kmlg_8_YY8ckR2-56" value="Existe déjà" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="438" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
