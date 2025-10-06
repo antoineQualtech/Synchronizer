@@ -443,7 +443,7 @@
         <mxCell id="8bQzE6Kmlg_8_YY8ckR2-50" value="Project" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="280" y="694" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8bQzE6Kmlg_8_YY8ckR2-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.2;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Qzrrch7IK2g1BgYNQHYs-1" target="MTBKCmyBLElkbQ5yRE9a-9">
+        <mxCell id="8bQzE6Kmlg_8_YY8ckR2-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qzrrch7IK2g1BgYNQHYs-1" target="8bQzE6Kmlg_8_YY8ckR2-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8bQzE6Kmlg_8_YY8ckR2-63" value="SyncObjectCompany" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
