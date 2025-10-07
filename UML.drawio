@@ -125,7 +125,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Qzrrch7IK2g1BgYNQHYs-1" value="SyncObject" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-10" y="440" width="280" height="104" as="geometry" />
+          <mxGeometry x="-10" y="440" width="280" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Qzrrch7IK2g1BgYNQHYs-2" value="&lt;span style=&quot;font-size: 9px;&quot;&gt;&amp;nbsp;ID : BIGINT IDENTITY(1,1) PRIMARY KEY&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Qzrrch7IK2g1BgYNQHYs-1" vertex="1">
           <mxGeometry y="26" width="280" height="26" as="geometry" />
@@ -135,6 +135,9 @@
         </mxCell>
         <mxCell id="Qzrrch7IK2g1BgYNQHYs-8" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;SystemID&amp;nbsp;&lt;font style=&quot;&quot;&gt;NVARCHAR(20) NOT NULL FK&lt;/font&gt;&amp;nbsp;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Qzrrch7IK2g1BgYNQHYs-1" vertex="1">
           <mxGeometry y="78" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="b9gmR7ahSrgNAl1d7lEf-2" value="+ item: attribute" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Qzrrch7IK2g1BgYNQHYs-1">
+          <mxGeometry y="104" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Qzrrch7IK2g1BgYNQHYs-9" value="Relation" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="MTBKCmyBLElkbQ5yRE9a-23" target="Qzrrch7IK2g1BgYNQHYs-8" edge="1">
           <mxGeometry relative="1" as="geometry">
