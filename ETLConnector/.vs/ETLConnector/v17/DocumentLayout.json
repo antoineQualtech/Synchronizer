@@ -1,0 +1,199 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ETL\\ETLConnector\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B31ED74-D16B-48BC-A5B1-ECE1E0196ABE}|ETLConnector\\ETLConnector.csproj|c:\\etl\\etlconnector\\etlconnector\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B31ED74-D16B-48BC-A5B1-ECE1E0196ABE}|ETLConnector\\ETLConnector.csproj|solutionrelative:etlconnector\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B31ED74-D16B-48BC-A5B1-ECE1E0196ABE}|ETLConnector\\ETLConnector.csproj|c:\\etl\\etlconnector\\etlconnector\\etlconnector.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7B31ED74-D16B-48BC-A5B1-ECE1E0196ABE}|ETLConnector\\ETLConnector.csproj|solutionrelative:etlconnector\\etlconnector.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B31ED74-D16B-48BC-A5B1-ECE1E0196ABE}|ETLConnector\\ETLConnector.csproj|c:\\etl\\etlconnector\\etlconnector\\parser\\simplefieldparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B31ED74-D16B-48BC-A5B1-ECE1E0196ABE}|ETLConnector\\ETLConnector.csproj|solutionrelative:etlconnector\\parser\\simplefieldparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B31ED74-D16B-48BC-A5B1-ECE1E0196ABE}|ETLConnector\\ETLConnector.csproj|c:\\etl\\etlconnector\\etlconnector\\connector\\connector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B31ED74-D16B-48BC-A5B1-ECE1E0196ABE}|ETLConnector\\ETLConnector.csproj|solutionrelative:etlconnector\\connector\\connector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B31ED74-D16B-48BC-A5B1-ECE1E0196ABE}|ETLConnector\\ETLConnector.csproj|c:\\etl\\etlconnector\\etlconnector\\connector\\iconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B31ED74-D16B-48BC-A5B1-ECE1E0196ABE}|ETLConnector\\ETLConnector.csproj|solutionrelative:etlconnector\\connector\\iconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B31ED74-D16B-48BC-A5B1-ECE1E0196ABE}|ETLConnector\\ETLConnector.csproj|c:\\etl\\etlconnector\\etlconnector\\model\\iconnectoroperationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B31ED74-D16B-48BC-A5B1-ECE1E0196ABE}|ETLConnector\\ETLConnector.csproj|solutionrelative:etlconnector\\model\\iconnectoroperationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B31ED74-D16B-48BC-A5B1-ECE1E0196ABE}|ETLConnector\\ETLConnector.csproj|c:\\etl\\etlconnector\\etlconnector\\model\\connectoroperationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B31ED74-D16B-48BC-A5B1-ECE1E0196ABE}|ETLConnector\\ETLConnector.csproj|solutionrelative:etlconnector\\model\\connectoroperationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B31ED74-D16B-48BC-A5B1-ECE1E0196ABE}|ETLConnector\\ETLConnector.csproj|c:\\etl\\etlconnector\\etlconnector\\parser\\parserresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B31ED74-D16B-48BC-A5B1-ECE1E0196ABE}|ETLConnector\\ETLConnector.csproj|solutionrelative:etlconnector\\parser\\parserresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B31ED74-D16B-48BC-A5B1-ECE1E0196ABE}|ETLConnector\\ETLConnector.csproj|c:\\etl\\etlconnector\\etlconnector\\parser\\iparserresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B31ED74-D16B-48BC-A5B1-ECE1E0196ABE}|ETLConnector\\ETLConnector.csproj|solutionrelative:etlconnector\\parser\\iparserresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ETLConnector",
+              "DocumentMoniker": "C:\\ETL\\ETLConnector\\ETLConnector\\ETLConnector.csproj",
+              "RelativeDocumentMoniker": "ETLConnector\\ETLConnector.csproj",
+              "ToolTip": "C:\\ETL\\ETLConnector\\ETLConnector\\ETLConnector.csproj",
+              "RelativeToolTip": "ETLConnector\\ETLConnector.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-08T19:42:39.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ETL\\ETLConnector\\ETLConnector\\Program.cs",
+              "RelativeDocumentMoniker": "ETLConnector\\Program.cs",
+              "ToolTip": "C:\\ETL\\ETLConnector\\ETLConnector\\Program.cs",
+              "RelativeToolTip": "ETLConnector\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAGMAAADBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T19:41:58.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IConnector.cs",
+              "DocumentMoniker": "C:\\ETL\\ETLConnector\\ETLConnector\\Connector\\IConnector.cs",
+              "RelativeDocumentMoniker": "ETLConnector\\Connector\\IConnector.cs",
+              "ToolTip": "C:\\ETL\\ETLConnector\\ETLConnector\\Connector\\IConnector.cs",
+              "RelativeToolTip": "ETLConnector\\Connector\\IConnector.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T19:40:34.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConnectorOperationResult.cs",
+              "DocumentMoniker": "C:\\ETL\\ETLConnector\\ETLConnector\\Model\\ConnectorOperationResult.cs",
+              "RelativeDocumentMoniker": "ETLConnector\\Model\\ConnectorOperationResult.cs",
+              "ToolTip": "C:\\ETL\\ETLConnector\\ETLConnector\\Model\\ConnectorOperationResult.cs",
+              "RelativeToolTip": "ETLConnector\\Model\\ConnectorOperationResult.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwC4AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T19:40:22.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IConnectorOperationResult.cs",
+              "DocumentMoniker": "C:\\ETL\\ETLConnector\\ETLConnector\\Model\\IConnectorOperationResult.cs",
+              "RelativeDocumentMoniker": "ETLConnector\\Model\\IConnectorOperationResult.cs",
+              "ToolTip": "C:\\ETL\\ETLConnector\\ETLConnector\\Model\\IConnectorOperationResult.cs",
+              "RelativeToolTip": "ETLConnector\\Model\\IConnectorOperationResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T19:40:09.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Connector.cs",
+              "DocumentMoniker": "C:\\ETL\\ETLConnector\\ETLConnector\\Connector\\Connector.cs",
+              "RelativeDocumentMoniker": "ETLConnector\\Connector\\Connector.cs",
+              "ToolTip": "C:\\ETL\\ETLConnector\\ETLConnector\\Connector\\Connector.cs",
+              "RelativeToolTip": "ETLConnector\\Connector\\Connector.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T19:33:00.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SimpleFieldParser.cs",
+              "DocumentMoniker": "C:\\ETL\\ETLConnector\\ETLConnector\\Parser\\SimpleFieldParser.cs",
+              "RelativeDocumentMoniker": "ETLConnector\\Parser\\SimpleFieldParser.cs",
+              "ToolTip": "C:\\ETL\\ETLConnector\\ETLConnector\\Parser\\SimpleFieldParser.cs",
+              "RelativeToolTip": "ETLConnector\\Parser\\SimpleFieldParser.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwB8AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T19:32:16.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ParserResult.cs",
+              "DocumentMoniker": "C:\\ETL\\ETLConnector\\ETLConnector\\Parser\\ParserResult.cs",
+              "RelativeDocumentMoniker": "ETLConnector\\Parser\\ParserResult.cs",
+              "ToolTip": "C:\\ETL\\ETLConnector\\ETLConnector\\Parser\\ParserResult.cs",
+              "RelativeToolTip": "ETLConnector\\Parser\\ParserResult.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACIAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T19:32:14.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IParserResult.cs",
+              "DocumentMoniker": "C:\\ETL\\ETLConnector\\ETLConnector\\Parser\\IParserResult.cs",
+              "RelativeDocumentMoniker": "ETLConnector\\Parser\\IParserResult.cs",
+              "ToolTip": "C:\\ETL\\ETLConnector\\ETLConnector\\Parser\\IParserResult.cs",
+              "RelativeToolTip": "ETLConnector\\Parser\\IParserResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T19:32:13.9Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 217,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{28836128-fc2c-11d2-a433-00c04f72d18a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
