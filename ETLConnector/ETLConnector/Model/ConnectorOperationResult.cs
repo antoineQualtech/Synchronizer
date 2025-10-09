@@ -17,13 +17,14 @@ namespace ETLConnector.Model
 
         public string Method { get; set; }
 
-        public string ExternalId { get; set; }
-
         public Dictionary<string,object> RawResponse { get; set; }
 
         public string StatusCode { get; set; }
 
         public string ErrorSummary { get; set; }
+        public string HttpStatusCode { get; set; }
+
+        public string URL { get; set; }
 
         /// <summary>
         /// /** Returns Successful Connector Operation Result **/
@@ -32,14 +33,16 @@ namespace ETLConnector.Model
         /// <param name="statusCode"></param>
         /// <param name="method"></param>
         /// <returns></returns>
-        public static ConnectorOperationResult Ok(Dictionary<string, object> rawResponse, string statusCode, string method)
+        public static ConnectorOperationResult Ok(Dictionary<string, object> rawResponse, string statusCode, string method, string httpCode, string url)
         {
             return new() {
                 Success = true,
                 RawResponse = rawResponse,
                 ErrorSummary = "",
                 StatusCode = statusCode,
-                Method = method
+                Method = method,
+                HttpStatusCode = httpCode,
+                URL = url
             };
         }
 
@@ -51,14 +54,17 @@ namespace ETLConnector.Model
         /// <param name="errorSummary"></param>
         /// <param name="method"></param>
         /// <returns></returns>
-        public static ConnectorOperationResult Fail(Dictionary<string, object> rawResponse, string statusCode, string errorSummary, string method)
+        public static ConnectorOperationResult Fail(Dictionary<string, object> rawResponse, string statusCode, string errorSummary, string method, string httpCode, string url)
         {
             return new() { 
                 Success = false,
                 RawResponse = rawResponse,
                 ErrorSummary = errorSummary, 
                 StatusCode = statusCode, 
-                Method = method 
+                Method = method,
+                HttpStatusCode = httpCode,
+                URL = url
+
             };
         } 
     }

@@ -1,0 +1,24 @@
+//notes 
+/* {
+    "ds": {
+        "Project": [
+        {
+            "Company": "QS",
+            "ProjectID": "250458",
+            "Description": "test antoine",
+            "CurrencyCode": "CAD",
+            "ConRevMethod": "MAN",
+            "RateGrpCode": "MAIN",
+            "SysRevID": 0x0000000084B260A2, 
+            "SysRowID": "83C4FC16-C6AD-4E7F-B35E-4AAB99EC2AE2",
+            "RowMod": "U"
+        }
+        ]
+    }
+    }*/
+//pour update un projet ces champs sont obligatoire et aussi utiliser UpdateExt pour update les champs voulu uniquement
+
+//soql : select id,Name, Motif__c,CreatedDate from Opportunity where name = 'TEST' and accountid = '001Aq00000dhuAGIAY'
+// D:\Epicor\Erp11\localclients\ErpPilot
+// D:\websites\ERPPilot\Server\Assemblies
+// reset app pool et recycle iis

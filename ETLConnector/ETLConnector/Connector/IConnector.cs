@@ -14,7 +14,6 @@ namespace ETLConnector.Connector
         public string AccessToken { get; }
         public string InstanceUrl { get; }
         public string ApiVersion { get; }
-        public string ObjectApiName { get; }
         public string BaseURL { get; }
     }
 }

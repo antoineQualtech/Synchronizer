@@ -1,84 +1,51 @@
 ﻿using ETLConnector.Model;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace ETLConnector.Connector
 {
-    /// <summary>
-    ///  /** Class Connector. Is the configurable object of a connector **/
-    /// </summary>
-    public class Connector : IConnector
+    internal class EpicorConnector : Connector
     {
-        public string AccessToken { get; set; }
-
-        public string InstanceUrl { get; set; }
-
-        public string BaseURL { get; set; }
-
-        public string ApiVersion { get; set; }
-
         /// <summary>
-        /// /** Connector Constructor not authenticated **/
+        /// /** Epicor Class Constructor **/
         /// </summary>
         /// <param name="instanceUrl"></param>
         /// <param name="baseUrl"></param>
         /// <param name="apiVersion"></param>
-        public Connector( string instanceUrl, string baseUrl, string apiVersion )
-        {
-            InstanceUrl = instanceUrl; 
-            BaseURL = baseUrl; 
-            ApiVersion = apiVersion; 
-        }
-
-        /// <summary>
-        /// /** Connector Constructor authenticated **/
-        /// </summary>
-        /// <param name="accessToken"></param>
-        /// <param name="instanceUrl"></param>
-        /// <param name="baseUrl"></param>
-        /// <param name="apiVersion"></param>
-        public Connector( string instanceUrl, string baseUrl, string apiVersion, string accessToken )
+        public EpicorConnector(string instanceUrl, string baseUrl, string apiVersion) : base(instanceUrl, baseUrl, apiVersion)
         {
             InstanceUrl = instanceUrl;
             BaseURL = baseUrl;
             ApiVersion = apiVersion;
-            AccessToken = accessToken;
         }
 
+
         /// <summary>
-        /// SendSObjectAsync Function :  Main Connector operation for synchronising data through APIs
+        /// /** Epicor Class Constructor **/
         /// </summary>
         /// <param name="body"></param>
         /// <param name="httpMethod"></param>
-        /// <param name="objectApiName"></param>
-        /// <param name="objectId"></param>
         /// <param name="additionalHeaders"></param>
-        /// /// <param name="maxTimeoutInSeconds"></param>
-        /// <returns> ConnectorOperationResult </returns>
+        /// <returns></returns>
         /// <exception cref="ArgumentNullException"></exception>
-        public async virtual Task<ConnectorOperationResult> SendObjectAsync(
-            object body,
+        public async Task<ConnectorOperationResult> AuthenticateAsync(
+            Dictionary<string, string> body,
             string httpMethod,
-            string objectApiName,
-            string objectId,
-            Dictionary<string,string> additionalHeaders,
-            int maxTimeoutInSeconds)
+            Dictionary<string, string> additionalHeaders)
         {
-            //eviter les erreurs de certificat ssl
             var handler = new HttpClientHandler
             {
                 ServerCertificateCustomValidationCallback =
                 (message, cert, chain, errors) => true
             };
 
-            if (object.Equals(body,null)) throw new ArgumentNullException("Exception : "+nameof(body));
-            if (string.IsNullOrWhiteSpace(httpMethod)) throw new ArgumentNullException("Exception : "+nameof(httpMethod));
+            if (object.Equals(body, null)) throw new ArgumentNullException("Exception : " + nameof(body));
+            if (string.IsNullOrWhiteSpace(httpMethod)) throw new ArgumentNullException("Exception : " + nameof(httpMethod));
 
             var upper = httpMethod.Trim().ToUpperInvariant();
             var method = new HttpMethod(upper);
@@ -89,47 +56,45 @@ namespace ETLConnector.Connector
             bool isDelete = upper == "DELETE";
 
             // Configuration en-tête de la requête
-            var baseUrl = $"{this.InstanceUrl}/{this.BaseURL}";
-            var url = string.IsNullOrWhiteSpace(objectApiName) ? baseUrl : $"{baseUrl}/{objectApiName}";
-            url = string.IsNullOrWhiteSpace(objectId) ? url : $"{url}/{objectId}";
-            
+            var url = $"{this.InstanceUrl}/{this.BaseURL}";
+
 
             using var http = new HttpClient(handler)
             {
-                Timeout = TimeSpan.FromSeconds(maxTimeoutInSeconds)
+                Timeout = TimeSpan.FromSeconds(100)
             };
-
-            //ajout bearer token si pas null
-            if( string.IsNullOrEmpty(this.AccessToken) == false )
-            {
-                http.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", this.AccessToken);
-            }
+            http.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
             // Ajout des en-tête supplémentaires
             foreach (string key in additionalHeaders.Keys)
             {
                 http.DefaultRequestHeaders.Add(key, additionalHeaders[key]);
             }
-           
+
             Console.WriteLine(url);
+
             // Configuration du body de la requête
             using var req = new HttpRequestMessage(method, url);
+
+
             //si update ou création
-            if(isPost || isPatch || isPut)
+            if (isPost || isPatch || isPut)
             {
-                var json = JsonConvert.SerializeObject(body);
-                req.Content = new StringContent(json, Encoding.UTF8, "application/json");
+                var content = new FormUrlEncodedContent(body);
+                req.Content = content;
             }
+
             int value = 0;
+
             try
-            {   
+            {
                 // Appel http
                 using var resp = await http.SendAsync(req).ConfigureAwait(false);
                 var raw = await resp.Content.ReadAsStringAsync().ConfigureAwait(false);
 
                 Dictionary<string, object> createResp = null;
 
-                value = (int) resp.StatusCode;
+                value = (int)resp.StatusCode;
 
                 // Si un code de succès ( httpcode = 200 )
                 if (resp.IsSuccessStatusCode)
@@ -151,17 +116,18 @@ namespace ETLConnector.Connector
                 // Si un code d'erreur ( httpcode >= 400 )
                 else
                 {
-     
+
                     string errSummary = raw;
                     return ConnectorOperationResult.Fail(createResp, resp.StatusCode.ToString(), errSummary, method.ToString(), value.ToString(), url);
-                    
+
                 }
             }
             // Exception
             catch (Exception ex)
             {
-                return ConnectorOperationResult.Fail(new Dictionary<string, object>(),"0", ex.Message +" "+ ex.StackTrace, method.ToString(), value.ToString(), url);
+                return ConnectorOperationResult.Fail(new Dictionary<string, object>(), "0", ex.Message + " " + ex.StackTrace, method.ToString(), value.ToString(), url);
             }
+
         }
     }
 }

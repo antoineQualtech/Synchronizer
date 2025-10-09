@@ -14,9 +14,10 @@ namespace ETLConnector.Model
     {
         public bool Success { get; }
         public string Method { get; }  
-        public string ExternalId { get; }     
         public Dictionary<string, object> RawResponse { get; }
         public string StatusCode { get; }
+        public string HttpStatusCode { get; }
         public string ErrorSummary { get; }
+        public string URL { get;  }
     }
 }
